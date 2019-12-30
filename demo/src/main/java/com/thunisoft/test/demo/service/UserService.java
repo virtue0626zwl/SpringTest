@@ -28,12 +28,12 @@ public class UserService {
     @Autowired
     private UserRepository userRepository;
 
-    @Cacheable(value = "use", key = "#loginId")
+    @Cacheable(value = "user", key = "#loginId")
     public User getUser(String loginId,String password) {
         return userRepository.findByLoginIdAndPassWord(loginId, password);
     }
 
-    @Cacheable(value = "use", key = "#id")
+    @Cacheable(value = "user", key = "#id")
     public Optional<User> getUserById(String id){
         return userRepository.findById(id);
     }

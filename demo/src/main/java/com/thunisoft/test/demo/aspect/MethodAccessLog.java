@@ -20,7 +20,7 @@ import java.util.Objects;
 /**
  * MethodAccessLog
  *
- * @description TODO
+ * @description AOP请求方法的时间
  * @author zouweilin
  * @date 2019/12/30 12:33
  * @version TODO

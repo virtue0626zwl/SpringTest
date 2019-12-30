@@ -8,7 +8,7 @@
             overflowToDisk="false"
             diskPersistent="false"
             timeToIdleSeconds="0"
-            timeToLiveSeconds="600"
+            timeToLiveSeconds="10"
             memoryStoreEvictionPolicy="LRU" />
 
     <cache
@@ -18,6 +18,6 @@
             overflowToDisk="false"
             diskPersistent="false"
             timeToIdleSeconds="0"
-            timeToLiveSeconds="300"
+            timeToLiveSeconds="10"
             memoryStoreEvictionPolicy="LRU" />
 </ehcache>
