@@ -28,7 +28,7 @@ import java.util.Objects;
 @Slf4j
 @Component
 @Aspect
-public class methodAccessLog {
+public class MethodAccessLog {
 
     @Around("execution(public * com.thunisoft.test.demo.controller.*.*(..))")
     public Object logServiceMethodAccess(ProceedingJoinPoint joinPoint) throws Throwable {

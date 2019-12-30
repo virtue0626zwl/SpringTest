@@ -8,7 +8,7 @@ package com.thunisoft.test.demo.exception;
 /**
  * NoDataException
  *
- * @description TODO
+ * @description 没有数据异常
  * @author zouweilin
  * @date 2019/12/19 18:18
  * @version TODO

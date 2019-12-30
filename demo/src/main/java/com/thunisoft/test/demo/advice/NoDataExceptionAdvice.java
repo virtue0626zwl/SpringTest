@@ -20,10 +20,10 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * NoDataExceptionAdvice
  *
- * @description TODO
+ * @description 全局异常
  * @author zouweilin
  * @date 2019/12/19 18:31
- * @version TODO
+ * @version v1.0
  */
 @ControllerAdvice
 @Slf4j

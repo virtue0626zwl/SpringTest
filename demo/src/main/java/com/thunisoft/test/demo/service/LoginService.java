@@ -12,10 +12,10 @@ import org.springframework.stereotype.Service;
 /**
  * LoginService
  *
- * @description TODO
+ * @description 登陆服务
  * @author zouweilin
  * @date 2019/12/19 17:11
- * @version TODO
+ * @version v1.0
  */
 @Service
 public class LoginService {

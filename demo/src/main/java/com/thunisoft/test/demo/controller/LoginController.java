@@ -17,10 +17,10 @@ import java.util.Objects;
 /**
  * LoginController
  *
- * @description TODO
+ * @description 登陆入口方法
  * @author zouweilin
  * @date 2019/12/19 17:05
- * @version TODO
+ * @version v1.0
  */
 @RestController
 public class LoginController {

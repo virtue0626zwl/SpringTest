@@ -11,10 +11,10 @@ import lombok.Data;
 /**
  * ResultBody
  *
- * @description TODO
+ * @description 定义异常返回对象实体
  * @author zouweilin
  * @date 2019/12/28 17:50
- * @version TODO
+ * @version v1.0
  */
 @Data
 public class ResultBody {
@@ -27,10 +27,10 @@ public class ResultBody {
 
 
     public static ResultBody error(String code, String message) {
-        ResultBody rb = new ResultBody();
-        rb.setCode(code);
-        rb.setMessage(message);
-        rb.setResult(null);
-        return rb;
+        ResultBody resultBody = new ResultBody();
+        resultBody.setCode(code);
+        resultBody.setMessage(message);
+        resultBody.setResult(null);
+        return resultBody;
     }
 }

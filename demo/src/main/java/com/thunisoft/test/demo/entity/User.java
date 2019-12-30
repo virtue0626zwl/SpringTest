@@ -22,10 +22,10 @@ import java.time.LocalDateTime;
 /**
  * entity
  *
- * @description TODO
+ * @description 用户entity
  * @author zouweilin
  * @date 2019/12/19 17:25
- * @version TODO
+ * @version v1.0
  */
 @Entity
 @Table(name = "t_user", schema = "db_zwl")

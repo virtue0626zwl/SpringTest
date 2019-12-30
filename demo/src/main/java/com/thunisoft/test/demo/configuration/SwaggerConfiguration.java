@@ -19,10 +19,10 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 /**
  * SwaggerConfiguration
  *
- * @description TODO
+ * @description swagger配置
  * @author zouweilin
  * @date 2019/12/19 18:16
- * @version TODO
+ * @version v1.0
  */
 @Configurable
 @EnableSwagger2
@@ -32,7 +32,7 @@ public class SwaggerConfiguration {
         return new Docket(DocumentationType.SWAGGER_2)
             .apiInfo(apiInfo())
             .select()
-            .apis(RequestHandlerSelectors.basePackage("com.thunisoft.testSpring.demo.controller"))
+            .apis(RequestHandlerSelectors.basePackage("com.thunisoft.test.demo.controller"))
             .paths(PathSelectors.any())
             .build();
     }

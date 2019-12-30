@@ -12,10 +12,10 @@ import org.springframework.data.jpa.repository.JpaRepository;
 /**
  * LoginRepository
  *
- * @description TODO
+ * @description 用户Repository
  * @author zouweilin
  * @date 2019/12/19 17:16
- * @version TODO
+ * @version v1.0
  */
 public interface UserRepository extends JpaRepository<User, String> {
 

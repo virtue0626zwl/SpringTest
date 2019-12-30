@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * PageController
  *
- * @description TODO
+ * @description 前端成功页面跳转
  * @author zouweilin
  * @date 2019/12/19 18:29
- * @version TODO
+ * @version v1.0
  */
 @RestController
 public class PageController {

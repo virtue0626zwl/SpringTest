@@ -17,10 +17,10 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * EhCacheController
  *
- * @description TODO
+ * @description ehcache测试类
  * @author zouweilin
  * @date 2019/12/30 10:22
- * @version TODO
+ * @version v1.0
  */
 @RestController
 public class EhCacheController {
