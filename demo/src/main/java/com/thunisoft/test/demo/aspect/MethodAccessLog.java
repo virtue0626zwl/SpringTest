@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Objects;
 
 /**
- * methodAccessLog
+ * MethodAccessLog
  *
  * @description TODO
  * @author zouweilin
